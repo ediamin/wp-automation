@@ -67,7 +67,7 @@ wp option update blog_public 0
 # this is required for the .htaccess
 touch wp-cli.local.yml
 echo "apache_modules:
-  -mod_rewrite
+  - mod_rewrite
 " > wp-cli.local.yml
 
 # set pretty urls
